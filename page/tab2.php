@@ -10,13 +10,29 @@ if (!defined('ABSPATH')) {
 <h2>Журнал работы плагина</h2>
 
 <?php
-
 $optionsName = CorePlugin::PREF_PLG;
 $plugin = CorePlugin::getInstance();
+
+// todo убрать
+if (isset($_POST) && !empty($_POST['clear_jornal'])) {
+    if (wp_verify_nonce($_POST['_unic_nonce_name'], 'clear_jornal_check')) {
+        $plugin->updateOptions('vkposter_jornal', []);
+    }
+}
+?>
+
+<?php
+
 $jornal = $plugin->getOptions('vkposter_jornal');
 
 ?>
-
+<form method="post">
+    <?php wp_nonce_field('clear_jornal_check', '_unic_nonce_name'); ?>
+    <input type="hidden" name="clear_jornal" value="yes" />
+    <p class="submit">
+        <input type="submit" class="button-primary" value="Очистить" />
+    </p>
+</form>
 <table class="table table-bordered table-hover table-condensed">
     <thead>
     <tr>

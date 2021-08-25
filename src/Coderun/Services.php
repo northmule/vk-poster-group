@@ -27,7 +27,11 @@ class Services {
      */
     public $proxy_userpaswd;
     
-    public $version_api='5.70';
+    /**
+     * Версия ВК api
+     * @var string
+     */
+    public $version_api='5.131';
     
     /**
      * Конструктор класса

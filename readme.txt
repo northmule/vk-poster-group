@@ -42,6 +42,8 @@ This project supports the best IDE for development [JetBrains](https://www.jetbr
 4. Страница настроек плагина
 
 == Changelog ==
+= 2.0.3 =
+* fix version VK
 = 2.0.2 =
 * Запись ссылки на пост в журнале плагина
 * Фикс поля с токеном (можно вставлять url как в первых версиях плагина)

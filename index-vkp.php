@@ -3,7 +3,7 @@
   Plugin Name: VK Poster Group
   Plugin URI: http://www.zixn.ru/plagin-vk-poster-group.html
   Description: Добавляет ваши записи на страницу группы Вконтакте, простой и удобный кроспостинг в социальную сеть
-  Version: 2.0.2
+  Version: 2.0.3
   Author: Djo
   Author URI: https://zixn.ru
  */
