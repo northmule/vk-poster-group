@@ -1,0 +1,17 @@
+{
+  "name": "coderun/vk-poster-group",
+  "description": "Плагин WordPress для постинга в группу Вконтакте",
+  "type": "project",
+  "license": "mit",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Coderun"
+    ]
+  },
+  "config": {
+    "platform-check": false
+  }
+}

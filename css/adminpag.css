@@ -1,0 +1,22 @@
+.vnimanie {
+    color: red;
+}
+fieldset {
+    border: 1px solid grey; /* Параметры границы */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+legend {
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5); /* Параметры тени */
+    width: auto;
+    position: relative;
+    top: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 5px;
+}
+
