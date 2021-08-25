@@ -21,6 +21,7 @@ Cross posting your entries from the Wordpress community Vkontakte Крос по�
 * Абсолютно бесплатный плагин, ни каких проф. и прочих платных версий.
 * Понятный код для тех кто хочет "допиливать" под себя.
 * Поддержка Woocommerce
+* Участие в проекте через [GitHub](https://github.com/northmule/vk-poster-group)
 
 Support and suggestions, [Telegram](https://t.me/coderunphp)
 
